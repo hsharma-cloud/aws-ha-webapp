@@ -1,58 +1,32 @@
-\# AWS Highly Available Web Application
+# AWS Highly Available Web Application Architecture
 
+## Overview
+Designed and implemented a highly available web application architecture on AWS to improve resilience, ensure fault tolerance, and support business continuity requirements.
 
+## Architecture Components
+- Amazon VPC with public subnets  
+- Application Load Balancer  
+- EC2 instances deployed across multiple Availability Zones  
+- Security Groups for controlled access  
+- Auto Scaling group for dynamic capacity  
 
-\## Overview
+## Security & Resilience Principles
+- High availability through multi-AZ deployment  
+- Controlled access using security groups  
+- Reduced single points of failure  
+- Resilient design supporting business continuity  
 
-This project demonstrates a highly available and scalable web application architecture on AWS.
+## Key Outcomes
+- Improved application availability and fault tolerance  
+- Enabled automatic scaling to handle demand fluctuations  
+- Established a resilient and secure application architecture  
 
+## Technologies Used
+- Amazon VPC  
+- Application Load Balancer  
+- Amazon EC2  
+- Auto Scaling  
+- Security Groups  
 
-
-\## Architecture
-
-\- Amazon VPC
-
-\- Public subnets
-
-\- Application Load Balancer
-
-\- EC2 instances
-
-\- Security groups
-
-\- Auto Scaling group
-
-
-
-\## What I Did
-
-\- Created a VPC and subnets
-
-\- Launched EC2 instances as web servers
-
-\- Configured an Application Load Balancer
-
-\- Implemented Auto Scaling
-
-\- Verified high availability across Availability Zones
-
-
-
-\## Skills Demonstrated
-
-\- AWS networking
-
-\- Load balancing
-
-\- High availability design
-
-\- Cloud security basics
-
-
-
-\## Status
-
-Project documentation in progress.
-
-
-
+## Status
+Initial documentation. Architecture diagram and enhancements coming.
